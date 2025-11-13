@@ -1,0 +1,19 @@
+<svg width="640" height="640" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="robotQuadrupedGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9a3c"/>
+      <stop offset="100%" stop-color="#ff4d6d"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" rx="48" fill="url(#robotQuadrupedGradient)"/>
+  <g stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9">
+    <rect x="160" y="240" width="320" height="120" rx="50"/>
+    <path d="M200 360 L180 460"/>
+    <path d="M280 360 L260 500"/>
+    <path d="M360 360 L380 500"/>
+    <path d="M440 360 L460 460"/>
+    <circle cx="220" cy="290" r="18"/>
+    <circle cx="420" cy="290" r="18"/>
+  </g>
+  <text x="50%" y="600" text-anchor="middle" font-family="Space Grotesk, Helvetica, sans-serif" font-size="36" fill="#fff">Field Quadruped</text>
+</svg>

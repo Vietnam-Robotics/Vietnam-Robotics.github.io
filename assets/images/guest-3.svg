@@ -1,0 +1,19 @@
+<svg width="640" height="640" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b5179e"/>
+      <stop offset="100%" stop-color="#7209b7"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" rx="48" fill="url(#g3)"/>
+  <g stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.92">
+    <path d="M220 200 C220 150 420 150 420 200 L420 360 C420 410 220 410 220 360 Z"/>
+    <path d="M220 260 L420 260"/>
+    <path d="M220 320 L420 320"/>
+    <path d="M280 410 L280 500 L360 500 L360 410"/>
+    <circle cx="250" cy="230" r="20"/>
+    <circle cx="330" cy="230" r="20"/>
+    <circle cx="410" cy="230" r="20"/>
+  </g>
+  <text x="50%" y="600" text-anchor="middle" font-family="Space Grotesk, Helvetica, sans-serif" font-size="36" fill="#fff">Neural Planning</text>
+</svg>

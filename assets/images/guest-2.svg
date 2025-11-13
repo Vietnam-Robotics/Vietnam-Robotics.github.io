@@ -1,0 +1,19 @@
+<svg width="640" height="640" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#f9844a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" rx="48" fill="url(#g2)"/>
+  <g stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95">
+    <rect x="200" y="190" width="240" height="180" rx="30"/>
+    <path d="M230 260 L410 260"/>
+    <path d="M230 310 L320 310"/>
+    <path d="M350 310 L410 310"/>
+    <circle cx="320" cy="430" r="90"/>
+    <path d="M260 430 L380 430"/>
+    <path d="M320 370 L320 490"/>
+  </g>
+  <text x="50%" y="600" text-anchor="middle" font-family="Space Grotesk, Helvetica, sans-serif" font-size="36" fill="#fff">Robotics Systems</text>
+</svg>

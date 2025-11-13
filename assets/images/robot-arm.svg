@@ -1,0 +1,17 @@
+<svg width="640" height="640" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="robotArmGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" rx="48" fill="url(#robotArmGradient)"/>
+  <g stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9">
+    <circle cx="200" cy="420" r="60"/>
+    <path d="M200 360 L300 280 L360 320 L420 220"/>
+    <path d="M420 220 L460 260 L420 300"/>
+    <path d="M300 280 L320 200"/>
+    <path d="M360 320 L420 360"/>
+  </g>
+  <text x="50%" y="600" text-anchor="middle" font-family="Space Grotesk, Helvetica, sans-serif" font-size="36" fill="#fff">Collaborative Arms</text>
+</svg>
