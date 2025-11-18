@@ -42,6 +42,7 @@
     </header>
 
     <main>
+      <div class="separator" aria-hidden="true"></div>
       <section id="overview" class="panel panel--grid">
         <div>
           <p class="eyebrow">About the Day</p>
@@ -78,45 +79,57 @@
             <h3>Aerial, manipulation &amp; legged robotics</h3>
             <p>Hardware-aware motion planning, control, and cross-domain autonomy.</p>
           </article>
-          <article>
+          <!-- <article>
             <h3>Simulation-to-deployment</h3>
             <p>Sim2real, Real2sim, and field-ready pipelines for modern robots.</p>
-          </article>
+          </article> -->
         </div>
       </section>
 
       <section id="talks" class="panel panel--light">
         <div class="panel__heading">
-          <p class="eyebrow">Confirmed Guest Talks &amp; Live Systems</p>
-          <h2>Featured Guests &amp; Robots</h2>
+          <p class="eyebrow">Confirmed Guest Talks</p>
+          <h2>Featured Guests</h2>
         </div>
+
+        <style>
+          /* Make speaker photos a consistent size */
+          #talks .speaker-card img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        display: block;
+        flex-shrink: 0;
+          }
+        </style>
+
         <div class="speaker-group">
-          <h3>Guest Speakers</h3>
+          <!-- <h3>Guest Speakers</h3> -->
           <div class="speakers">
-            <article class="speaker-card">
-              <img src="https://nt-hung.github.io/images/profile.jpg" alt="Dr Hung Nguyen, Lead Engineer in GNC, Autonomous Robotic Center, TII - UAE" />
-              <div>
-                <h3>Dr. Hung Nguyen</h3>
-                <p class="role">Lead Engineer in GNC, Autonomous Robotic Center, TII - UAE</p>
-                <p class="talk">Talk: "Cooperative control and estimation of networked marine robots for underwater target localization and pursuit"</p>
-              </div>
-            </article>
-            <article class="speaker-card">
-              <img src="https://vinuni.edu.vn/wp-content/uploads/2025/09/Profile-pic-8.png" alt="Dr Minh Vu, Director in hardware and software, VinRobotics JSC" />
-              <div>
-                <h3>Dr. Minh Vu</h3>
-                <p class="role">Director in hardware and software, VinRobotics JSC - VN</p>
-                <p class="talk">Talk: TBC</p>
-              </div>
-            </article>
-            <article class="speaker-card">
-              <img src="https://vinuni.edu.vn/wp-content/uploads/2025/09/Profile-pic-3-2.png" alt="Dr An Le" />
-              <div>
-                <h3>Dr. An Le</h3>
-                <p class="role">Assistant Professor, VinUniversity - VN</p>
-                <p class="talk">Talk: "Batching Planning Paradigm: Tensorized Motion Planning for MPC and Global Path Planning"</p>
-              </div>
-            </article>
+        <article class="speaker-card">
+          <img src="https://nt-hung.github.io/images/profile.jpg" alt="Dr Hung Nguyen, Lead Engineer in GNC, Autonomous Robotic Center, TII - UAE" loading="lazy" />
+          <div>
+            <h3>Dr. Hung Nguyen</h3>
+            <p class="role">Lead Engineer in GNC, Autonomous Robotic Center, TII - UAE</p>
+            <p class="talk">Talk: "Cooperative control and estimation of networked marine robots for underwater target localization and pursuit"</p>
+          </div>
+        </article>
+        <article class="speaker-card">
+          <img src="https://vinuni.edu.vn/wp-content/uploads/2025/09/Profile-pic-8.png" alt="Dr Minh Vu, Director in hardware and software, VinRobotics JSC" loading="lazy" />
+          <div>
+            <h3>Dr. Minh Vu</h3>
+            <p class="role">Director in hardware and software, VinRobotics JSC - VN</p>
+            <p class="talk">Talk: TBC</p>
+          </div>
+        </article>
+        <article class="speaker-card">
+          <img src="https://vinuni.edu.vn/wp-content/uploads/2025/09/Profile-pic-3-2.png" alt="Dr An Le" loading="lazy" />
+          <div>
+            <h3>Dr. An Le</h3>
+            <p class="role">Assistant Professor, VinUniversity - VN</p>
+            <p class="talk">Talk: "Batching Planning Paradigm: Tensorized Motion Planning for MPC and Global Path Planning"</p>
+          </div>
+        </article>
           </div>
         </div>
         
